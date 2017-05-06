@@ -24903,7 +24903,7 @@
 	        ' Navbar '
 	      ),
 	      React.createElement(
-	        Link,
+	        IndexLink,
 	        { to: '/', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
 	        'Get Weather'
 	      ),
