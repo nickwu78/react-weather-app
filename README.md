@@ -1,6 +1,6 @@
-# React Boilerplate app
+# React Weather app
 
-A react boilerplate app to use whilst learning react. It uses webpack v1, express, and react.
+A weather app built using react while follwing a [online course](https://www.udemy.com/the-complete-react-web-app-developer-course)
 
 ### Installation
 
@@ -8,18 +8,9 @@ Clone this repo then run:
 
 `npm install`
 
-### Description
+### What I learned
 
-The npm package includes
-
-express 4.13.4
-react 0.14.7
-react-dom 0.14.7
-
-Dev dependencies
-
-babel-core 6.5.1
-babel-loader 6.2.2
-babel-preset-es2015 6.5.0
-babel-preset-react 6.5.0
-webpack 1.12.13
+* Routing using react-router
+* Destructuring
+* Adding links using <Link> tags and react router.
+* Adding classes and styles to links
