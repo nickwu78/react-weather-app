@@ -5,11 +5,11 @@ var app = express();
 const PORT = process.env.PORT || 3000;
 
 // Redirect all https traffic to http (for openWeatherMap API)
-app.use(function (req, res, next){
-  if (req.headers['x-forwarded-proto'] === 'https') {
+app.use(function (req, res, next) {
+  if (req.headers['x-forwarded-proto'] === 'http') {
     next();
   } else {
-    res.redirect('http://' + req.hostname + req.url);
+    res.redirect('https://' + req.hostname + req.url);
   }
 });
 
