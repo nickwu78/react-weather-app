@@ -36,6 +36,7 @@ var addStatement = (a, b) => {
 console.log(addStatement(4, 7));
 
 var addExpression = (a, b) => a + b;
+
 // console.log(add(1, 3));
 // console.log(add(9, 0));
 
